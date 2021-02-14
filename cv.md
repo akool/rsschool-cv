@@ -1,7 +1,9 @@
 # Aliaksandr Kulikou
 
 **e-mail**: akoolny@gmail.com
-___
+
+---
+
 In web-development since 2010. During this time took part in development of promo websites, corporate websites, information portals, online-shops and web-interfaces as project manager, backend and frontend developer. I feel most confident in developing responsive websites, user interfaces for content-management and backend with Evolution CMS (MODX). Most interested in creating user-friendly interfaces as a frontend-developer and constantly improving my skills.
 
 ## Skills
