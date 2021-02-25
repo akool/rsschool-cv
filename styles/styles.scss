@@ -16,7 +16,13 @@ a:hover {
 ul {
   padding-left: 1em;
 }
-
+img {
+  max-width: 100%;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
 .container {
   max-width: 1080px;
   width: 90%;
@@ -38,6 +44,7 @@ ul {
   width: 140px;
   height: 140px;
   border-radius: 50%;
+  overflow: hidden;
   animation: fadeIn 0.6s ease-in;
 }
 .footer {
