@@ -4,6 +4,11 @@ body {
   line-height: 1.5;
   background-color: #fcfcfc;
 }
+h4, 
+h5 {
+  margin: 0;
+  font-size: 1em;
+}
 a {
   color: #3b8bba;
 }
@@ -28,7 +33,9 @@ figure {
   width: 90%;
   margin: 0 auto;
 }
-
+.mt-0 {
+  margin-top: 0;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -40,9 +47,14 @@ figure {
 .person-name {
   margin-top: 0;
 }
+.person-contacts {
+  list-style: none;
+  padding: 0;
+}
 .person-avatar {
   width: 140px;
   height: 140px;
+  min-width: 90px;
   border-radius: 50%;
   overflow: hidden;
   animation: fadeIn 0.6s ease-in;
@@ -58,7 +70,6 @@ figure {
     font-size: 1.4rem;
   }
 }
-
 .skills-list {
   padding-left: 1em;
   column-count: 2;
@@ -67,17 +78,23 @@ figure {
     margin-bottom: 0.2em;
   }
 }
-
 .job {
   &__description {
     margin: 0.3rem 0;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     > p {
       margin: 0 0 0.8em;
     }
   }
+  &__position {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1em;
+  }
   &__company {
-    margin-left: 0.5em;
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 0 0 0.5em;
   }
 }
 

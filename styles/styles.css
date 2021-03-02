@@ -5,6 +5,12 @@ body {
   background-color: #fcfcfc;
 }
 
+h4,
+h5 {
+  margin: 0;
+  font-size: 1em;
+}
+
 a {
   color: #3b8bba;
 }
@@ -36,6 +42,10 @@ figure {
   margin: 0 auto;
 }
 
+.mt-0 {
+  margin-top: 0;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,9 +64,15 @@ figure {
   margin-top: 0;
 }
 
+.person-contacts {
+  list-style: none;
+  padding: 0;
+}
+
 .person-avatar {
   width: 140px;
   height: 140px;
+  min-width: 90px;
   border-radius: 50%;
   overflow: hidden;
   -webkit-animation: fadeIn 0.6s ease-in;
@@ -92,15 +108,23 @@ figure {
 
 .job__description {
   margin: 0.3rem 0;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 .job__description > p {
   margin: 0 0 0.8em;
 }
 
+.job__position {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1em;
+}
+
 .job__company {
-  margin-left: 0.5em;
+  display: inline-block;
+  font-size: 1em;
+  margin: 0 0 0 0.5em;
 }
 
 @media screen and (max-width: 768px) {
